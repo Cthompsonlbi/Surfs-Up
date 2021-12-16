@@ -51,5 +51,32 @@ For consistancy, Just as we did with June's data, after reviewing the plot above
 
 ### Summaray of June and December Analysis
 
+* For ease of reference, please see the central tendency information plotted above in a side by side format below.  
+
+![centraltendencytemp](Resources/centraltendencytemp.png)
+
+Based of the queries for June and December one will notice the following by comparing the outcomes:
+  * Temperaturess are three degrees warmer for June than December
+  * June max temp is two degrees warmer than December
+  * The average temperature is also four degrees higher in June than in December
+  * The min temperature is eight degrees cooler in December than compared to June.
+  * The December bar plot above shows a greater concentration of temperatures at the 71-72 degree range, while June shows a wider range of temperature variations.
+
+Soley based on these two queries and resulting output, there are not red flags as to whether or not a Surf and Shake shop could thrive based on temperature alone.  However, knowing that W. Avy had issues with past business ventures due to issues with weather, particularly precipitation, we believe it would be prudent to expand the analysis to account other factors.  That analysis can be found below.
+
 ## Additional Analysis
 
+Apart from temperature, other issues that should be taken into consideration to gain a level of confidence if an investment in the Surf and Shake shop would be successful is a measurement of precipitation, particularly near the coast.  Focusing on temperature and percipitation near the coastal areas of Oahu would allow us to remove data acquired from areas that are not the target customers of the Surf and Shake shop. Catering to the surf and tourist community would mean that the shops locations would be closer to the coast and not in-land. Because of this, in-land weather data should be excluded from the data set so that the investors could get a more accuratae depiction of the weather in areas the shop tend to service. 
+
+![JuneElevQuery](Resources/JuneElevQuery.png)
+![JuneTempLowElevPlot](Resources/JuneTempLowElevPlot.png)
+![JuneTempLowElevStats](Resources/JuneTempLowElevStats.png)
+![JunePrcpLowEvelQuery](Resources/JunePrcpLowEvelQuery.png)
+![JunePrcpLowEvelPlot](Resources/JunePrcpLowEvelPlot.png)
+![JunePrcpLowEvelStat](Resources/JunePrcpLowEvelStat.png)
+![DecTempLowElevQuery](Resources/DecTempLowElevQuery.png)
+![DecTempLowElevPlot](Resources/DecTempLowElevPlot.png)
+![DecTempLowElevStats](Resources/DecTempLowElevStats.png)
+![DecPrcpLowElevQuery](Resources/DecPrcpLowElevQuery.png)
+![DecPrcpLowElevPlot](Resources/DecPrcpLowElevPlot.png)
+![DecPrcpLowElevStats](Resources/DecPrcpLowElevStats.png)
