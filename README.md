@@ -22,7 +22,7 @@ One of W. Avy's request was retrieve data from the dataset that would focus on t
 
 * Please review the plot below resulting from the 'June Temperature Query'
 
-![JuneTempPlots](Resources/JuneTempPlots.png)
+![JuneTempPlot](Resources/JuneTempPlot.png)
 
 After reviewing the plot above we felt that the visual was a nice touch but, as way to help quantify the visual we decided to utilize the .describe() function found in the pandas library to provide a way for the investor(s) to quickly review the min, max, means, etc.
 
@@ -41,7 +41,7 @@ The second requested deliverable of W. Avy's request was as we did for June, ret
 
 * Please review the plot below resulting from the 'December Temperature Query'
 
-![DecTempPlots](Resources/DecTempPlots.png)
+![DecTempPlot](Resources/DecTempPlot.png)
 
 For consistancy, Just as we did with June's data, after reviewing the plot above we decided to utilize the .describe() function again to provide a way for the investor(s) to quickly review the min, max, means, etc.
 
