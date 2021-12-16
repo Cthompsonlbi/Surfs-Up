@@ -85,7 +85,7 @@ Below you will find plots showing the temperatures for June and December represe
 ![JuneTempLowElevPlot](Resources/JuneTempLowElevPlot.png)
 ![DecTempLowElevPlot](Resources/DecTempLowElevPlot.png)
 
-Just as we did for Deliverables one and two, we used the .describe() function to return the central tendency calculations for the coastal locations.
+Just as we did for Deliverables one and two, we used the .describe() function to return the central tendency calculations of temperatures but,  for the coastal locations only.
 
 ![JuneTempLowElevStats](Resources/JuneTempLowElevStats.png)
 ![DecTempLowElevStats](Resources/DecTempLowElevStats.png)
@@ -98,10 +98,12 @@ Just as we did for Deliverables one and two, we used the .describe() function to
  
 ![DecPrcpLowElevQuery](Resources/DecPrcpLowElevQuery.png)
 
+Below you will find plots showing the percipitation levels for June and December representing only locations that are closer to the coastal areas of Oahu.
 
 ![JunePrcpLowEvelPlot](Resources/JunePrcpLowEvelPlot.png)
-![JunePrcpLowEvelStat](Resources/JunePrcpLowEvelStat.png)
-
-
 ![DecPrcpLowElevPlot](Resources/DecPrcpLowElevPlot.png)
+
+Finally, Just as we did for Deliverables one and two, we used the .describe() function to return the central tendency calculations for percipitation but, for only the coastal locations.
+
+![JunePrcpLowEvelStat](Resources/JunePrcpLowEvelStat.png)
 ![DecPrcpLowElevStats](Resources/DecPrcpLowElevStats.png)
