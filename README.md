@@ -71,22 +71,37 @@ Apart from temperature, other issues that should be taken into consideration to 
 In order to complete this task, we would need to create a query that would return locations closer to the coast.  A simple way to do this for the Oahu dataset was to remove data acquired by stations in the upper elevations.  These higher elevations are located further away from the coast and based on their elevations their percipitation data and temperature data could vary significantly when compared to stations closer to sea-level.  Removing the data of stations located at higher elevations could provide a more accurate picture of what the weather is actually like for prospective Surf and Shake Shops.  To achieve this please see the queries created for June and December that removed weather stations that are at an elevation of 40 feet or higher.
 
 * Query returning June temperature data from weather stations at elevations below 40ft.
-* 
+ 
 ![JuneElevQuery](Resources/JuneElevQuery.png)
 
 * Query returning December temperature data from weather stations at elevations below 40ft.
-* 
+ 
 ![DecTempLowElevQuery](Resources/DecTempLowElevQuery.png)
 
 Using the queries above, we are able to generate plots of June and December data that shows weather of locations that are more likely candidates for the Shake and Surf Shop and remove any contribution attributed by in-land stations, where the weather patterns may be different.
 
+Below you will find plots showing the temperatures for June and December representing only locations that are closer to the coastal areas of Oahu.
+
 ![JuneTempLowElevPlot](Resources/JuneTempLowElevPlot.png)
+![DecTempLowElevPlot](Resources/DecTempLowElevPlot.png)
+
+Just as we did for Deliverables one and two, we used the .describe() function to return the central tendency calculations for the coastal locations.
+
 ![JuneTempLowElevStats](Resources/JuneTempLowElevStats.png)
+![DecTempLowElevStats](Resources/DecTempLowElevStats.png)
+
+* Query returning June percipitation data from weather stations at elevations below 40ft.
+ 
 ![JunePrcpLowEvelQuery](Resources/JunePrcpLowEvelQuery.png)
+
+* Query returning December percipitation data from weather stations at elevations below 40ft.
+ 
+![DecPrcpLowElevQuery](Resources/DecPrcpLowElevQuery.png)
+
+
 ![JunePrcpLowEvelPlot](Resources/JunePrcpLowEvelPlot.png)
 ![JunePrcpLowEvelStat](Resources/JunePrcpLowEvelStat.png)
-![DecTempLowElevPlot](Resources/DecTempLowElevPlot.png)
-![DecTempLowElevStats](Resources/DecTempLowElevStats.png)
-![DecPrcpLowElevQuery](Resources/DecPrcpLowElevQuery.png)
+
+
 ![DecPrcpLowElevPlot](Resources/DecPrcpLowElevPlot.png)
 ![DecPrcpLowElevStats](Resources/DecPrcpLowElevStats.png)
