@@ -13,15 +13,41 @@ Back from a recent vacation to Hawaii, the protagonist would like to move to Oah
 
 ### Deliverable 1: June Weather Analysis Process
 
-One of W. Avy's request was retrieve data from the dataset that would focus on the temperatures during the month of June.  This would allow the investors to see how the weather during the summer month of June would compare to the winter month of December.
+One of W. Avy's request was retrieve data from the dataset that would focus on the temperatures during the month of June.  This would allow the investors to see how the weather during the summer month of June would compare to the winter month of December.  After importing all of the proper libraries and supporting files, below is the query that was constructed to retrieve the temp data from the weather recording stations throught Oahu.
 
 
 * Below is the 'June Temperature Query' that pulls back all temperatures recorded during the month of June from all recording stations over multiple years.  
 
 ![JuneQuery](Resources/JuneQuery.png)
 
+* Please review the plot below resulting from the 'June Temperature Query'
+
+![JuneTempPlot](Resources/JuneTempPlot.png)
+
+After reviewing the plot above we felt that the visual was a nice touch but, as way to help quantify the visual we decided to utilize the .describe() function found in the pandas library to provide a way for the investor(s) to quickly review the min, max, means, etc.
+
+* Below is the same 'June Temperature Query' calculating and formatting the data in a central tendency format.  
+
+![JuneTempStats](Resources/JuneTempStats.png)
+
 
 ### Deliverable 2: December Weather Analysis Process
+
+The second requested deliverable of W. Avy's request was as we did for June, retrieve data from the dataset that would focus on the temperatures during the month of December.  This would allow the investors to see how the weather during the summeer month of June would compare to the winter month of December.  Below is the query that was constructed to retrieve the temp data from the weather recording stations throught Oahu.
+
+* Below is the 'December Temperature Query' that pulls back all temperatures recorded during the month of December from all recording stations over multiple years.  
+
+![DecemberQuery](Resources/DecemberQuery.png)
+
+* Please review the plot below resulting from the 'December Temperature Query'
+
+![DecTempPlot](Resources/DecTempPlot.png)
+
+For consistancy, Just as we did with June's data, after reviewing the plot above we decided to utilize the .describe() function again to provide a way for the investor(s) to quickly review the min, max, means, etc.
+
+* Below is the same 'December Temperature Query' calculating and formatting the data in a central tendency format.  
+
+![DecTempStats](Resources/DecTempStats.png)
 
 ### Summaray of June and December Analysis
 
