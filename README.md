@@ -107,3 +107,10 @@ Finally, Just as we did for Deliverables one and two, we used the .describe() fu
 
 ![JunePrcpLowEvelStat](Resources/JunePrcpLowEvelStat.png)
 ![DecPrcpLowElevStats](Resources/DecPrcpLowElevStats.png)
+
+## Analysis of the Analysis
+
+Although we were only supposed to propose two or three additional suggestions for analysis, we went ahead and completed the analysis by providing June and December data for coastal areas, the temperature of those coastal areas, and the percipiation levels for those areas.  This will help the investors feel more confident in their decision knowing that the data is cleaner and more relevant to the business opportunity.
+
+After reviewing the data of the lower elevation coastal areas it is found that the weather in-land does not contribute significantly to the original data set.  The analysis is quite similar if the in-land weather stations are included or not.
+
