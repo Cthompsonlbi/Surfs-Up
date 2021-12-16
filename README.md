@@ -90,6 +90,7 @@ Just as we did for Deliverables one and two, we used the .describe() function to
 ![JuneTempLowElevStats](Resources/JuneTempLowElevStats.png)
 ![DecTempLowElevStats](Resources/DecTempLowElevStats.png)
 
+The one thing that W. Avy
 * Query returning June percipitation data from weather stations at elevations below 40ft.
  
 ![JunePrcpLowEvelQuery](Resources/JunePrcpLowEvelQuery.png)
@@ -112,5 +113,13 @@ Finally, Just as we did for Deliverables one and two, we used the .describe() fu
 
 Although we were only supposed to propose two or three additional suggestions for analysis, we went ahead and completed the analysis by providing June and December data for coastal areas, the temperature of those coastal areas, and the percipiation levels for those areas.  This will help the investors feel more confident in their decision knowing that the data is cleaner and more relevant to the business opportunity.
 
-After reviewing the data of the lower elevation coastal areas it is found that the weather in-land does not contribute significantly to the original data set.  The analysis is quite similar if the in-land weather stations are included or not.
+After reviewing the data of the lower elevation coastal areas it is found that the weather in-land does not contribute significantly to the original data set.  The analysis is quite similar if the in-land weather stations are included or not.  The following are the observations made comparing the original analysis with the coastal only analysis:
 
+* June average temperatures are only .5 degrees warmer when comparing original June temps (74.94) and coastal area June temps (75.45). The min and max temps remained unchanged.
+* December average and minimum temperatures roughly the samne when comparing the two data sets. While the Max temp is one degree cooler for coastal areas (82.0) compared to the original data set (83.0)
+* While referencing to the bar charts comparing June and December coastal area precipitation, December appears to have significantly wetter month than compared to June. However, by looking at the bar chart, it appears that 2010 as paricularly a wet year for 2010.  Looking at the central tendency plot could yield more accurate analysis.
+* Comparing the central tendency of precipitation levels for the coastal locations during the month of June and December, the mean for December is higher than June but not significantly.  The delta observed could be due to the impact of 2010 high level of percipitation that skewed the data for December. The December Max of 4.94 is indicative of the high level of rain for 2010.
+
+## Additional Analysis Opportunities
+
+Further analysis will need to be done to help further zero an appropriate location if the investors would like to move forward.  Population analysis would be a complimentary data point that could help identify prime locations.  Having an analysis of area population size, demographics, income, and tourists influx will help identify primary locations to sustain such a business adventure. 
