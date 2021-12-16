@@ -69,13 +69,22 @@ Soley based on these two queries and resulting output, there are not red flags a
 Apart from temperature, other issues that should be taken into consideration to gain a level of confidence if an investment in the Surf and Shake shop would be successful is a measurement of precipitation, particularly near the coast.  Focusing on temperature and percipitation near the coastal areas of Oahu would allow us to remove data acquired from areas that are not the target customers of the Surf and Shake shop. Catering to the surf and tourist community would mean that the shops locations would be closer to the coast and not in-land. Because of this, in-land weather data should be excluded from the data set so that the investors could get a more accuratae depiction of the weather in areas the shop tend to service. 
 
 In order to complete this task, we would need to create a query that would return locations closer to the coast.  A simple way to do this for the Oahu dataset was to remove data acquired by stations in the upper elevations.  These higher elevations are located further away from the coast and based on their elevations their percipitation data and temperature data could vary significantly when compared to stations closer to sea-level.  Removing the data of stations located at higher elevations could provide a more accurate picture of what the weather is actually like for prospective Surf and Shake Shops.  To achieve this please see the queries created for June and December that removed weather stations that are at an elevation of 40 feet or higher.
+
+* Query returning June temperature data from weather stations at elevations below 40ft.
+* 
 ![JuneElevQuery](Resources/JuneElevQuery.png)
+
+* Query returning December temperature data from weather stations at elevations below 40ft.
+* 
+![DecTempLowElevQuery](Resources/DecTempLowElevQuery.png)
+
+Using the queries above, we are able to generate plots of June and December data that shows weather of locations that are more likely candidates for the Shake and Surf Shop and remove any contribution attributed by in-land stations, where the weather patterns may be different.
+
 ![JuneTempLowElevPlot](Resources/JuneTempLowElevPlot.png)
 ![JuneTempLowElevStats](Resources/JuneTempLowElevStats.png)
 ![JunePrcpLowEvelQuery](Resources/JunePrcpLowEvelQuery.png)
 ![JunePrcpLowEvelPlot](Resources/JunePrcpLowEvelPlot.png)
 ![JunePrcpLowEvelStat](Resources/JunePrcpLowEvelStat.png)
-![DecTempLowElevQuery](Resources/DecTempLowElevQuery.png)
 ![DecTempLowElevPlot](Resources/DecTempLowElevPlot.png)
 ![DecTempLowElevStats](Resources/DecTempLowElevStats.png)
 ![DecPrcpLowElevQuery](Resources/DecPrcpLowElevQuery.png)
